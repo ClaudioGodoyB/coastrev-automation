@@ -1,7 +1,7 @@
 import os
 
 # Define the target directory
-downloads_path = r"C:\Users\johnj\Downloads"
+downloads_path = r"/home/user/coastrev/data/downloads"
 
 # Loop through each file in the directory
 for filename in os.listdir(downloads_path):

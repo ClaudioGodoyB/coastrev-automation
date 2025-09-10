@@ -7,7 +7,7 @@ today_str = datetime.today().strftime('%Y-%m-%d')
 daily_detail_folder = f"Daily Detail {today_str}"
 final_file_name = f"BWSM {today_str}.xlsx"
 final_file_path = os.path.join(
-    r"C:\Users\johnj\Desktop\CoastRev\Reporting\Daily Details",
+    r"/home/user/coastrev/data/daily_details",
     daily_detail_folder,
     final_file_name
 )

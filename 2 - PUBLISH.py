@@ -65,7 +65,7 @@ for row in data:
         else:
             subject = subject_cell
 
-        base_path = r'C:\Users\johnj\Desktop\CoastRev\Reporting\Daily Details'
+        base_path = r"/home/user/coastrev/data/daily_details"
         attachment_path = join(base_path, folder, f"{attachment_file}.xlsx")
 
         html_file_path = join(html_base_path, f"{pickup_html}.html")

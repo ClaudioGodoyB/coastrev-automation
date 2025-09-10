@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import os
 
 # Define base paths
-base_source_folder = r"C:\Users\johnj\Desktop\CoastRev\Reporting\Daily Extracts"
+base_source_folder = r"/home/user/coastrev/data/extracts"
 destination_file = r"C:\Users\johnj\Desktop\CoastRev\Reporting\Daily Templates\HBSB.xlsx"
 
 # Get the date 7 days ago

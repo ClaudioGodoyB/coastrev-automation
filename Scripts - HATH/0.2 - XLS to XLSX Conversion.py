@@ -64,7 +64,7 @@ if __name__ == "__main__":
     current_date = datetime.now().strftime("%Y-%m-%d")
 
     # Define the base directory path
-    base_directory = r"C:\Users\johnj\Desktop\CoastRev\Reporting\Daily Extracts"
+    base_directory = r"/home/user/coastrev/data/extracts"
 
     # Define the folder path with the current date and the 'HATH' subfolder
     today_directory = os.path.join(base_directory, f"Extract {current_date}", "HATH")

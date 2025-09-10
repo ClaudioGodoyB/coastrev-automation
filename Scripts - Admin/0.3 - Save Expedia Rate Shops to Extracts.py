@@ -50,8 +50,8 @@ def find_and_process_files(downloads_folder, save_root_folder):
 
 if __name__ == '__main__':
     # Define the paths
-    downloads_folder = r'C:\Users\johnj\Downloads'
-    save_root_folder = r'C:\Users\johnj\Desktop\CoastRev\Reporting\Daily Extracts'
+    downloads_folder = r"/home/user/coastrev/data/downloads"
+    save_root_folder = r"/home/user/coastrev/data/extracts"
 
     # Find today's downloaded 'expedia_price_grid' files and process them
     find_and_process_files(downloads_folder, save_root_folder)

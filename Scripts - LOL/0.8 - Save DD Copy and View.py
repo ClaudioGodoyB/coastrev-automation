@@ -8,7 +8,7 @@ try:
 
     # Generate the destination folder path based on the current date
     current_date = datetime.now().strftime("%Y-%m-%d")
-    destination_folder = os.path.join(r"C:\Users\johnj\Desktop\CoastRev\Reporting\Daily Details", f"Daily Detail {current_date}")
+    destination_folder = os.path.join(r"/home/user/coastrev/data/daily_details", f"Daily Detail {current_date}")
 
     # Ensure the destination folder exists
     os.makedirs(destination_folder, exist_ok=True)

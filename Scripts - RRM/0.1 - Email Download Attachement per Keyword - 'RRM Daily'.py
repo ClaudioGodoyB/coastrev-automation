@@ -42,7 +42,7 @@ def get_most_recent_weekend():
 
 if __name__ == "__main__":
     subject_keyword = "RRM Daily"  # Change this to your desired subject keyword
-    save_folder = r"C:\Users\johnj\Desktop\CoastRev\Reporting\Daily Extracts"  # Change this to your desired save folder
+    save_folder = r"/home/user/coastrev/data/extracts"  # Change this to your desired save folder
 
     # Create today's folder and download today's attachments
     today_date = datetime.datetime.now().strftime("%Y-%m-%d")

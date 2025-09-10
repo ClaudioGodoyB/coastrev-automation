@@ -44,7 +44,7 @@ def find_and_copy_file(downloads_folder, save_root_folder):
         print("No matching files found from today.")
 
 if __name__ == '__main__':
-    downloads_folder = r'C:\Users\johnj\Downloads'
-    save_root_folder = r'C:\Users\johnj\Desktop\CoastRev\Reporting\Daily Extracts'
+    downloads_folder = r"/home/user/coastrev/data/downloads"
+    save_root_folder = r"/home/user/coastrev/data/extracts"
 
     find_and_copy_file(downloads_folder, save_root_folder)
